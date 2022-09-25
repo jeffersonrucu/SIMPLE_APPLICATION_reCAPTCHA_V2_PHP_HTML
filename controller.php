@@ -5,7 +5,7 @@ if (!isset($_POST['g-recaptcha-response'])) {
 }
 
 $captcha = $_POST['g-recaptcha-response'];
-$secretKey = "6LcF8CkiAAAAAD1zMHQ4PQ1EK0Za22ktEHr7bgBx";
+$secretKey = "Put your secret key here";
 $ip = $_SERVER['REMOTE_ADDR'];
 
 // Request
